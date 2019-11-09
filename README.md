@@ -1,3 +1,32 @@
+
+To the  reviewer:
+_______________________
+
+1. the file which run the app is "run.py".
+and you should do :
+
+$ export FLASK_APP=run.py
+
+the structure of the app I take from here , and it's explaining there :
+https://www.youtube.com/watch?v=44PvX0Yv368
+
+2. I did the pictures in the app with file loading and not just a link.
+I  did a default artist/venue picture too
+
+3. I changed the password in the DB connection.
+
+thanks
+YOSEF.
+
+
+
+
+
+
+
+
+
+*********************************************************************
 Fyyur
 -----
 

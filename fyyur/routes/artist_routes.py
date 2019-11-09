@@ -109,7 +109,7 @@ def delete_artist(artist_id):
     try:
         artist = Artist.query.get_or_404(artist_id)
         # to remove the image file if it different from the default :
-        if artist.image_link and artist.image_link!='default_artist.jpeg':
+        if artist.image_link and artist.image_link!='default.jpeg':
             os.remove(os.path.join("fyyur/static/img/artists/",artist.image_link))
         db.session.delete(artist)
         db.session.commit()
